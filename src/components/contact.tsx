@@ -20,11 +20,11 @@ function Contact() {
             <textarea
               placeholder="Your Message"
               className="w-full px-4 py-2 bg-gray-800 text-gray-300 rounded-md"
-              rows="5"
+              rows={5}
             />
             <button
               type="submit"
-              className="px-6 py-2 bg-cyan-400 text-gray-900 font-bold rounded-md hover:bg-cyan-300"
+              className="px-6 py-2 bg-cyan-400 text-gray-300 font-bold rounded-md hover:bg-cyan-300"
             >
               Send Message
             </button>
