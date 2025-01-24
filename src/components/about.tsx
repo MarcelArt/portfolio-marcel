@@ -4,8 +4,7 @@ function About() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">About Me</h2>
           <p className="text-lg text-gray-300 leading-relaxed">
-            I am a self-taught developer with a strong passion for crafting beautiful user interfaces and seamless web experiences. 
-            When I'm not coding, you can find me exploring new tech or reading books.
+          An informatics major that interested in development of information technology, that always itching to learn new technology and stacks that helps creating a software application that going to be useful for many people
           </p>
         </div>
       </section>

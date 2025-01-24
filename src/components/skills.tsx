@@ -1,5 +1,5 @@
 function Skills() {
-    const skills = ['React', 'JavaScript', 'Tailwind CSS', 'Node.js', 'Git', 'Figma'];
+    const skills = ['Node.js', 'Golang', 'C#', 'C', 'ASP.net', 'Postgres', 'MongoDB', 'React', 'React Native', 'Javascript', 'GraphQL', 'MS Teams App', 'SQL Server', 'AWS', 'Azure', 'Docker', 'Github Actions', 'Unity', 'English'];
   
     return (
       <section id="skills" className="py-20 bg-neutral-800">

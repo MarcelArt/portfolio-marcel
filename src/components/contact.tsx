@@ -6,7 +6,7 @@ function Contact() {
           <p className="text-gray-300 mb-6">
             Have a project in mind or just want to say hi? Feel free to reach out!
           </p>
-          <form className="space-y-4">
+          <div className="space-y-4">
             <input
               type="text"
               placeholder="Your Name"
@@ -28,8 +28,11 @@ function Contact() {
             >
               Send Message
             </button>
-          </form>
+          </div>
         </div>
+        {/* <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="marcel-marihot-putra-aritonang" data-version="v1">
+          <a className="badge-base__link LI-simple-link" href="https://id.linkedin.com/in/marcel-marihot-putra-aritonang?trk=profile-badge">Marcel Marihot Putra Aritonang</a>
+        </div> */}
       </section>
     );
   }
