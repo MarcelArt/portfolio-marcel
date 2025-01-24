@@ -37,7 +37,7 @@ function Hero() {
           Hello, I'm <span className='text-cyan-400'>Marcel Marihot Putra Aritonang</span>
         </h1>
         <p className='text-lg md:text-xl text-gray-300 mb-6'>
-          A passionate Backend Developer building amazing applications on server side of things.
+          A passionate Flexible Adaptable Software Developer building amazing applications mostly on server side of things.
         </p>
         <div className='flex flex-row w-fit mx-auto gap-4'>
           <a type='button' href='#about' className='px-6 py-3 bg-cyan-400 rounded-lg text-white font-bold hover:bg-cyan-300'>
