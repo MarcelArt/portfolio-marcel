@@ -11,7 +11,13 @@ function Contact() {
 
   const mutation = useMutation({
     mutationFn: (message: PortfolioMessage) => axios.post('http://localhost:8080/api/portfolio/email', message),
-  })
+    onSuccess: () => {
+      setName('');
+      setEmail('');
+      setSubject('');
+      setMessage('');
+    }
+  });
 
   return (
     <section id='contact' className='py-20'>
