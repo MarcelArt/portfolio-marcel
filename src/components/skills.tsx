@@ -1,5 +1,5 @@
 function Skills() {
-    const skills = ['Node.js', 'Golang', 'C#', 'C', 'ASP.net', 'Postgres', 'MongoDB', 'React', 'React Native', 'Javascript', 'GraphQL', 'MS Teams App', 'SQL Server', 'AWS', 'Azure', 'Docker', 'Github Actions', 'Unity', 'English'];
+    const skills = ['Node.js', 'Golang', 'C#', 'C', 'ASP.net', 'Postgres', 'MongoDB', 'React', 'React Native', 'Javascript', 'GraphQL', 'MS Teams App', 'SQL Server', 'AWS', 'Azure', 'Docker', 'Github Actions', 'Unity', 'English', 'Bahasa Indonesia'];
   
     return (
       <section id="skills" className="py-20 bg-neutral-800">
