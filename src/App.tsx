@@ -7,6 +7,7 @@ import Hero from './components/hero';
 import Navbar from './components/navbar';
 import Projects from './components/projects';
 import Skills from './components/skills';
+import Chatbot from './components/chatbot';
 
 const queryClient = new QueryClient();
 
@@ -21,6 +22,7 @@ function App() {
         <Skills />
         <Contact />
         <Footer />
+        <Chatbot />
       </div>
     </QueryClientProvider>
   );
