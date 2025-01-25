@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { FaCheck, FaRobot } from 'react-icons/fa';
 import { chat, ChatMessageRole } from '../api/ollama';
 import { useMutation } from '@tanstack/react-query';
+import Markdown from 'react-markdown';
 
 function ChatbotFAB() {
   const [isChatOpen, setIsChatOpen] = useState(false);
@@ -48,7 +49,7 @@ function ChatbotFAB() {
                     message.role === ChatMessageRole.USER ? 'bg-cyan-400 text-gray-900 text-right' : 'bg-gray-600 text-gray-300 text-left'
                   }`}
                 >
-                  {message.content}
+                  <Markdown>{message.content}</Markdown>
                 </div>
               </div>
             ))}
