@@ -10,7 +10,7 @@ function Contact() {
   const [message, setMessage] = useState('');
 
   const mutation = useMutation({
-    mutationFn: (message: PortfolioMessage) => axios.post('http://localhost:8080/api/portfolio/email', message),
+    mutationFn: (message: PortfolioMessage) => axios.post('https://api-portfolio.marceltechspace.com/api/portfolio/email', message),
     onSuccess: () => {
       setName('');
       setEmail('');
