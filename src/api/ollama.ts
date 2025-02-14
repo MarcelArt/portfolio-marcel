@@ -66,7 +66,7 @@ function chat(messages: Array<ChatMessage>) {
         messages: [defaultSystem, ...messages],
     };
 
-    return axios.post('https://ollama.marceltechspace.com/api/chat', req);
+    return axios.post('https://ollama.marceltechspace.com/api/chat', req, { withCredentials: false });
 }
 
 export { chat, ChatMessageRole };
