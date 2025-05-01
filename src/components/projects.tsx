@@ -3,12 +3,14 @@ import ollama from '../assets/ollama.png';
 
 function Projects() {
     const projects = [
-      { title: 'ModelCraft', description: 'A scaffolder to quickly start Golang backend project', img: modelCraft, url: 'https://github.com/MarcelArt/ModelCraft' },
+      { title: 'polygo', description: 'A scaffolder CLI to quickly start Golang backend project, the next iteration of MOdelCraft', img: modelCraft, url: 'https://github.com/MarcelArt/polygo' },
+      { title: 'ModelCraft', description: 'A scaffolder template to quickly start Golang backend project, precursor of polygo', img: modelCraft, url: 'https://github.com/MarcelArt/ModelCraft' },
       { title: 'Ollama Query', description: 'An AI assistant based on llama3.2 that can do SQL query and summarize query result in human-friendly way', img: ollama, url: 'https://github.com/MarcelArt/ollama-query' },
       { title: 'AR Bangun Ruang', description: 'An AR application that help students visualize basic geometry built with Vuforia and Unity engine', img: 'https://docs.unity3d.com/2017.4/Documentation/uploads/Main/vuforia_logo.png', url: 'https://github.com/MarcelArt/ARBangunRuangV3' },
       { title: 'Beat Parsec', description: 'A rhythm based shoot \'em up space combat built in Unity', img: 'https://img.itch.zone/aW1nLzQ2MzcwNzIucG5n/315x250%23c/hzRt0%2F.png', url: 'https://googolplanck.itch.io/beat-parsec' },
       { title: 'Stick S\'mores', description: 'A rhythm based stabbing marshmallow mini game built in Unity', img: 'https://img.itch.zone/aW1nLzQ3MjAxOTkucG5n/315x250%23c/Ex2jkU.png', url: 'https://googolplanck.itch.io/stick-smores' },
       { title: 'Swatted', description: 'Whack a fly mini game built in Unity', img: 'https://img.itch.zone/aW1nLzQ3Mzc0NzkucG5n/315x250%23c/sJ1Zyj.png', url: 'https://googolplanck.itch.io/swatted' },
+      { title: 'create-godot-rust-game', description: 'A CLI app to quickly startup Godot with Rust Extension', img: 'https://avatars.githubusercontent.com/u/66136469?s=200&v=4', url: 'https://github.com/MarcelArt/create-godot-rust-game' },
       // Add more projects here
     ];
   
